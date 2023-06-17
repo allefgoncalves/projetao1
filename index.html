@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>projeto6-buzzquizz</title> 
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
-    <p1></p1>
+    <header class="header">
+        <h2>BuzzQuizz</h2>
+    </header>
+    
+    <main class="start">
+        <div class="yourQuizzes">
+            <div>
+            <p>Seus Quizzes</p>
+            <button onclick="createQuizz()">+</button>
+            </div>            
+            <ul></ul>
+        </div>
+
+        <div class="clearYourQuizzes">
+            <p2>Você não criou nenhum quizz ainda :(</p2>
+            <button onclick="createQuizz()">Criar Quizz</button>
+        </div>
+
+        <p>Todos os Quizzes</p>
+        <ul></ul>
+    </main>
+
+    <main class="quizz">
+        <div class="titleQuizz">
+            <img>
+            <p3>titulo do quizz</p3>
+        </div>
+        <ul class="questions">
+
+        </ul>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
