@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto6-buzzquizz</title> 
     <link href="./reset.css" rel="stylesheet">
     <link href="./styles.css" rel="stylesheet">
@@ -11,55 +11,7 @@
     <header class="header">
         <h1>BuzzQuizz</h1>
     </header>
-    
-    <main class="start, desabilitado">
-        <div class="yourQuizzes, desabilitado">
-            <div>
-            <p>Seus Quizzes</p>
-            <button onclick="createQuizz()" data-test="create-btn">+</button>
-            </div>            
-            <ul></ul>
-        </div>
-
-        <div class="clearYourQuizzes">
-            <p>Você não criou nenhum quizz ainda :(</p>
-            <button onclick="createQuizz()" data-test="create-btn">Criar Quizz</button>
-        </div>
-
-        <p>Todos os Quizzes</p>
-        <ul class = "todos-os-quizzes"> 
-        </ul>
-    </main>
-
-    <main class="quizz">
-        <div class="titleQuizz"
-             style="background-image:url('https://i.pinimg.com/564x/7a/0d/a2/7a0da2ee83da31a7ed662bb0b8673640.jpg');"
-             data-test="banner">
-                <p>${quizz.title}</p>
-        </div>
-        <ul>
-            <li class="questions" data-test="question">
-                <div class="pergunta" data-test="question-title">${quizz.question.title}</div>
-                <div class="selecao">
-                    <button onclick="resposta()" data-test="answer">
-                        <img src="https://i.pinimg.com/564x/7a/0d/a2/7a0da2ee83da31a7ed662bb0b8673640.jpg">
-                        <p data-test="answer-text">texto da resposta se eu aumentar vai espremer</p>
-                    </button>
-                    <button onclick="resposta()" data-test="answer">
-                        <img src="https://i.pinimg.com/564x/7a/0d/a2/7a0da2ee83da31a7ed662bb0b8673640.jpg">
-                        <p data-test="answer-text">texto</p>
-                    </button>
-                    <button onclick="resposta()" data-test="answer">
-                        <img src="https://i.pinimg.com/564x/7a/0d/a2/7a0da2ee83da31a7ed662bb0b8673640.jpg">
-                        <p data-test="answer-text">resposta</p>
-                    </button>
-                    <button onclick="resposta()" data-test="answer">
-                        <img src="https://i.pinimg.com/564x/7a/0d/a2/7a0da2ee83da31a7ed662bb0b8673640.jpg">
-                        <p data-test="answer-text">vai espremer</p>
-                    </button> 
-                </div>
-            </li>
-        </ul>
+    <main>
     </main>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
