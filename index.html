@@ -9,11 +9,11 @@
 </head>
 <body>
     <header class="header">
-        <h2>BuzzQuizz</h2>
+        <h1>BuzzQuizz</h1>
     </header>
     
     <main class="start">
-        <div class="yourQuizzes">
+        <div class="yourQuizzes , desabilitado">
             <div>
             <p>Seus Quizzes</p>
             <button onclick="createQuizz()">+</button>
@@ -26,8 +26,14 @@
             <button onclick="createQuizz()">Criar Quizz</button>
         </div>
 
-        <p>Todos os Quizzes</p>
-        <ul></ul>
+        <p class="desabilitado">Todos os Quizzes</p>
+        <ul>
+            <li>
+                <button style="background-image:url('https://http.cat/411.jpg');" class="desabilitado">
+                <h2>texto muito grande de pergunta que não cabe em um lugar só?</h2>
+                </button>
+            </li>   
+        </ul>
     </main>
 
     <main class="quizz">
